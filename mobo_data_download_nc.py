@@ -85,7 +85,7 @@ for i in range(len(times)):
             print(filename)
             my_ds.to_netcdf(filename)
         else:
-            print('Oh Noes! it exists')
+            print('File exists exists')
     else:
         print('ERROR '+ targets[i])
 
